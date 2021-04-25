@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.contenedor{
+    display: flex;
+    position: relative;
+}
+
+.logo{
+    width: 50%;
+    margin: auto;
+    
+}
+.logo img{
+    border-radius: 100px;
+    
+}
+.izquierda{
+    text-align: center;
+    background-color: teal;
+
+    width:40%;
+}
+.titulo{
+    color: white;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+.menu{
+    padding-top: 20px;
+}
+.menu li a{
+    color: white;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    color: teal;
+    background-color: white;
+}
+.contacto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.contacto li a{
+    color: white;
+
+}
+li h2 a{
+    color: white;
+}
+li h2 a:hover{
+    color:red;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/*.foto{
+    background-image: url("../img/roxana.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
+}*/
+.foto{
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+.derecha{
+    width: 60%;
+
+}
+.tituloDerecha{
+    position: absolute;
+    top:200px ;
+    width: 100%;
+    text-align: center;
+    
+}
+.nombre{
+    font-size: 4rem;
+    color: white;
+}
+.espesialidad{
+    font-size: 2rem;
+    color: white;
+}
+.subtitulo{
+    color:#008080;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+.parrafo{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.fortalezas{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 30px;
+}
+.imagen{
+    width: 40%;
+    padding: 10px;
+    
+}
+.imagen img{
+    border-radius: 10px;
+}
+.misFortalezas{
+    width: 60%;
+    font-size: 2rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.listaFortalesas{
+    list-style-type: disc;
+    padding-left: 30px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px ){
+    
+    .contenedor{
+        display: flex;
+    }
+    .izquierda{
+        width: 30%;
+    }
+    .derecha{
+        width: 70%;
+    }
+    
+}
