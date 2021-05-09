@@ -5,10 +5,13 @@
     
     font-family: 'Open Sans', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
 }
-ul{
+.menu li,.contacto li , .conocimiento li , .redes li{
     list-style-type: none;
 }
 .contenedor{
@@ -17,8 +20,9 @@ ul{
 }
 
 .logo{
-    width: 50%;
+    width: 35%;
     margin: auto;
+    padding-top:10px;
     
 }
 .logo img{
@@ -28,8 +32,9 @@ ul{
 .izquierda{
     text-align: center;
     background-color: teal;
-
     width:40%;
+    position: fixed;
+    height:100vh ;
 }
 .titulo{
     color: white;
@@ -87,6 +92,10 @@ img{
 }
 .derecha{
     width: 60%;
+    position: relative;
+    top: 0;
+    left: 450px;
+ 
 
 }
 .tituloDerecha{
@@ -134,11 +143,29 @@ img{
     align-items: center;
 
 }
-.listaFortalesas{
+.listaFortalezas{
     list-style-type: disc;
     padding-left: 30px;
 
 
+}
+/* Aplicando css a la seccion de estudio */
+.detallesEstudios ,.detallesExperiencia {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.detalle{
+    width: 50%;
+    padding: 25px;
+}
+.subtituloDetalle{
+    margin-bottom: 10px;
+    border-bottom: teal dotted 4px;
+}
+.listaDetalle{
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 
