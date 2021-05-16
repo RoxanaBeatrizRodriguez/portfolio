@@ -167,6 +167,34 @@ img{
     margin-top: 10px;
     margin-left: 15px;
 }
+/*APLICANDO CSS AL FORMULARIO (CONTACTO)*/
+.contactame{
+    display: flex;
+}
+.ubicacion{
+    width:40% ;
+    padding-left: 20px;
+}
+.formulario{
+    width: 60%;
+    text-align: center;
+   
+}
+.form{
+
+    margin: auto;
+    text-align: center;
+}
+textarea{
+    resize: none;
+    border: none;
+    border-bottom: solid teal 2px; 
+}
+input{
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: solid teal 2px;
+}
 
 
 
@@ -192,5 +220,6 @@ img{
     .derecha{
         width: 70%;
     }
+
     
 }
